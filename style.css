@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+button {
+    width: 2cm;
+    aspect-ratio: 3;
+}
+
+#panel {
+    background-color: rgb(60, 60, 60);
+    width: 3in;
+    aspect-ratio: 1;
+    border: 2px solid black;
+    position: absolute;
+    right: 1cm;
+    top: 1cm;
+    padding: 2px;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#bpanel {
+    background-color: rgb(60, 60, 60);
+    width: 3in;
+    aspect-ratio: 1;
+    border: 2px solid black;
+    position: absolute;
+    right: 1cm;
+    top: 9cm;
+    padding: 2px;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#Eraser {
+    background-color: rgb(60, 60, 60);
+    width: 3cm;
+    aspect-ratio: 3;
+    border: 2px solid black;
+    position: absolute;
+    right: 1cm;
+    bottom: 1cm;
+    padding: 2px;
+    text-align: center;
+}
+
+.citto {
+    background-color: rgb(207, 83, 83);
+    border: 1px solid black;
+}
+
+.bcitto {
+    background-color: rgb(70, 70, 202);
+    border: 1px solid black;
+}
+
+.goldencitto {
+    background-color: rgb(219, 172, 52);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.platinumcitto {
+    background-color: rgb(229, 228, 226);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+#random {
+    position: absolute;
+    right: 1cm;
+    bottom: 2.4cm;
+}
+
+.stringhe {
+    background-color: rgb(219, 172, 52);
+    position: relative;
+    max-width: 2cm;
+}
